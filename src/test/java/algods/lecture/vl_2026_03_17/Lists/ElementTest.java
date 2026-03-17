@@ -46,6 +46,6 @@ public class ElementTest {
         e1.insertBefore("Foo");
         assertEquals(null, e1.data);
         assertEquals("42", e1.next.data);
-        assertEquals("42", e1.prev.data);
+        assertEquals("Foo", e1.prev.data);
     }
 }
